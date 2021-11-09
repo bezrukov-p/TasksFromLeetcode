@@ -3,7 +3,7 @@ package com.leetcode.solutions;
 import java.util.ArrayList;
 import java.util.List;
 
-public class decompressRLElist {
+public class DecompressRLElist {
     public int[] decompressRLElist(int[] nums) {
         List<Integer> res = new ArrayList<>();
         for(int i = 0; i < nums.length; i += 2){
